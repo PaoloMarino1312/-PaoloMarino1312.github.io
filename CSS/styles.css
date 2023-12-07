@@ -8,6 +8,7 @@
 }
 
 body {
+  transition-duration: 2000ms;
   display: grid;
   align-items: center;
   justify-items: center;
@@ -45,6 +46,7 @@ body .container .choices button {
   background: #dfe4ea;
   user-select: none;
   font-weight: 600;
+  
 }
 body .container .choices button:hover {
   background: #ffa502;
@@ -61,5 +63,28 @@ body #progress {
   font-size: 1.3rem;
   color: #ffa502;
 }
+
+footer {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  align-self: flex-end;
+  height: 110px;
+}
+
+#inspirationtxt{
+  text-align: left;
+}
+
+#image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  
+}
+
 
 /*# sourceMappingURL=style.css.map */
